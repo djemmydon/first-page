@@ -1,0 +1,312 @@
+body {
+    scroll-behavior: smooth;
+    background-color: rgb(0, 1, 63);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-header {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+header {
+   
+    background-color: rgb(6, 3, 73);
+    z-index: 3333;
+    position: fixed;
+    width: 100%;
+    height: 12vh;
+    border-bottom: 2px rgb(207, 49, 49) solid;
+}
+
+header h3 {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+  padding-left: 5px;
+float: left;
+    display: relative;
+   
+
+
+}
+
+
+header h3 span {
+    color: rgb(214, 8, 8);
+   
+}
+
+
+header ul {
+ padding-top: 30px;
+ padding-right: 30px;
+   
+    float: right;
+  
+    
+}
+
+header ul li {
+    display: inline;
+   
+    padding-top: 20px;
+   
+}
+
+
+header ul li a {
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.2s ease-out;
+    
+}
+
+
+header ul li a:hover {
+
+color: rgb(214, 8, 8);
+}
+
+
+
+
+.row {
+    padding-top: 10%;
+    margin: 0 auto;
+}
+
+.first-one {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    
+    
+}
+
+.first-one h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 20px;
+    
+    
+}
+
+.first-one p {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 2.3rem;
+
+}
+
+.first-one p a {
+    color: tomato;
+}
+.second-one
+ {
+    text-align: center;
+    background-color: rgb(2, 4, 27);
+    height: auto;
+    border-radius: 20px;
+    
+}
+
+.second-one form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    padding-top: 50px;
+    
+}
+
+form img {
+    width: 100px;
+    height: 100px;
+    min-height: 3rem;
+}
+
+form input {
+    border: 0;
+    background: none;
+    border-bottom: 2px solid #fff;
+    min-height: 3rem;
+    color: white;
+    font-size: 20px;
+}
+
+
+.continue-btn {
+    border: 0;
+    width: auto;
+    height: 100%;
+     margin: 10px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+.card-sec {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 20px;
+background-color: rgb(90, 4, 4);
+padding: 20px;
+border-radius: 1rem;
+opacity: 40px;
+
+}
+
+
+
+.card {
+    margin: 20px;
+    border-radius: 9px;
+    padding: 20px;
+    transition: 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1);
+    margin: 10px;
+}
+
+
+
+
+
+ .icon-1 {
+    margin: 0 auto;
+    padding-top: 2px;
+    font-size: 120px;
+ }
+
+ .card-title {
+     text-align: center;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 2rem;
+     color:rgb(214, 8, 8);
+     font-weight: 700;
+     text-transform: uppercase;
+
+ }
+
+ .card-text {
+    text-align: center;
+    line-height: 1.5rem;
+    font-weight: 600;
+
+
+}
+
+.enter-btn {
+  text-align: center;
+  color: rgb(214, 8, 8);
+  
+ 
+}
+ 
+.enter-btn a{
+font-weight: 600;
+text-transform: uppercase;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.column {
+ display: flex;
+ justify-content: center;
+ 
+}
+
+.col-completed, .col-feedback, .col-design {
+  
+  text-align: center;
+
+
+      
+}
+
+.paragraph-col {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 15px;
+    color: white;
+}
+
+.icon-people {
+    
+    font-size: 70px;
+   padding: 10px;
+    float: right;
+    color: white;
+    
+}
+
+.header-col {
+    position: absolute;
+    padding-top: 6px;
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 5px;
+
+}
+
+.col-completed {
+    background-color: rgb(240, 102, 102);
+    
+   
+   
+}
+
+
+
+.col-feedback {
+    background-color: white;
+    
+   
+}
+
+.col-feedback .icon-people {
+    color: rgb(233, 64, 64);
+   
+}
+
+.col-feedback .paragraph-col {
+    color: black;
+}
+
+.col-design {
+    background-color: rgb(56, 53, 53);
+    height: 20vh;
+    
+}
+
+.col-design .header-col {
+    color: rgb(243, 64, 64);
+}
+
